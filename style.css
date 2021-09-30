@@ -1,0 +1,43 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+table
+{
+  margin-top: 100px;
+  border-collapse: collapse;
+  width: 850px;
+}
+td, th
+{
+  border: 1px solid black;
+}
+.container
+{
+  position: relative;
+  top: 100px;
+  width: 850px;
+}
+.container input
+{
+  height: 43px;
+}
+.container input:first-child
+{
+  width: 750px;
+}
+.container input:nth-child(2)
+{
+  width: 80px;
+}
